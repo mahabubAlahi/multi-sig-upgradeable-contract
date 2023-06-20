@@ -2,6 +2,7 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import { fornoURLs, ICeloNetwork } from "@ubeswap/hardhat-celo";
 import "hardhat-deploy";
+import "@openzeppelin/hardhat-upgrades";
 
 import * as dotenv from "dotenv";
 
